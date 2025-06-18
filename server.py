@@ -3,7 +3,7 @@ import openai
 from flask import Flask, request, jsonify
 
 GOOGLE_SHEET_WEBHOOK = "https://script.google.com/macros/s/AKfycbzOCJq7Qy1gSxUvxJDzB5XWutGL09d8q_96QagIIwGc_GOxYprE323ZRqDga6NrmZ7j/exec"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 openai.api_key = OPENAI_API_KEY
 
